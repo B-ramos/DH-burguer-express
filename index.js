@@ -1,7 +1,7 @@
 const express = require('express');
 
-const routerCardapio = require('./router/routerCardapio');
-const routerPedidos = require('./router/routerPedidos');
+const routerCardapio = require('./route/routeCardapio');
+const routerPedidos = require('./route/routePedidos');
 
 const app = express();
 
